@@ -6,7 +6,7 @@
         public string? AdmFuncaoFuncionario { get; set; }
         public string? AdmMatriculaAluno { get; set; }
         public DateTime AdmDataCadastroFuncionario { get; set; }
-        public DateTime AdmDataCadastroMatriculaAluno { get; set; }
+        public DateTime AdmDataCadastroAluno { get; set; }
     }
     
 }
