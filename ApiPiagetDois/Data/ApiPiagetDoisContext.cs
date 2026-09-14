@@ -17,5 +17,6 @@ namespace ApiPiagetDois.Data
         public DbSet<ApiPiagetDois.Models.Aluno> Aluno { get; set; } = default!;
          public DbSet<ApiPiagetDois.Models.Escola> Escola { get; set; } = default!;
         public DbSet<ApiPiagetDois.Models.Professor> Professor { get; set; } = default!;
+        public DbSet<ApiPiagetDois.Models.AdmEscola> AdmEscola { get; set; } = default!;
     }
 }
